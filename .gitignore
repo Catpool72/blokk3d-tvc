@@ -1,0 +1,18 @@
+# build kimenetek (a kiadott CAS fájlok a dist/ mappában vannak)
+*.bin
+*.sym
+*.lst
+*.ppm
+*_prof.cas
+/blokk.cas
+/blokk64p.cas
+harness/tvcsim
+# tesztfuttatások és képernyőképek
+test*.txt
+t.txt
+t2.txt
+*.png
+!title_preview.png
+!docs/*.png
+*.zip
+__pycache__/
